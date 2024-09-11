@@ -1,0 +1,11 @@
+time,text,username,news_id
+CURRENT_TIMESTAMP,Great article! Very informative.,user1,1
+CURRENT_TIMESTAMP,I disagree; there are other opinions.,user2,9
+CURRENT_TIMESTAMP,Thanks for the useful info!,user3,9
+CURRENT_TIMESTAMP,Interesting approach to the topic.,user4,3
+CURRENT_TIMESTAMP,I hope for updates on this topic.,user5,3
+CURRENT_TIMESTAMP,We need more articles like this!,user6,3
+CURRENT_TIMESTAMP,Could you explain further?,user7,6
+CURRENT_TIMESTAMP,The article is too short; I need more details.,user8,6
+CURRENT_TIMESTAMP,Please add source links.,user9,7
+CURRENT_TIMESTAMP,Looking forward to the continuation!,user10,9

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: 'news-service-application'
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/management-system
+    username: postgres
+    password: "postgres"
+  liquibase:
+    change-log: db/changelog/main-changelog.xml
+    contexts: ${spring.profiles.active}
+
+  profiles:
+    active: dev

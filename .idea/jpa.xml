@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="defaultUnitInitialized" value="true" />
+    <option name="newEntityIdStrategy" value="Identity" />
+    <option name="renamerInitialized" value="true" />
+  </component>
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit name="Default" defaultIncludeChangeLogFile="clevertec-news-service-application/src/main/resources/db/changelog/main-changelog.xml" defaultSearchScope="Selected Entities">
+        <packages>
+          <package value="by.vanzoneway.clevertecnewsserviceapplication" />
+          <package value="" />
+          <package value="by.vanzoneway.clevertecnewsserviceapi" />
+        </packages>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>

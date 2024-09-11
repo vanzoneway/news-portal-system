@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: security-service-application
+  server:
+    port: 8081
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/management-system-users
+    username: postgres
+    password: "postgres"
+  liquibase:
+    change-log: db/changelog/main-changelog.xml
+  jwt:
+    secret: mQ93h4D1I0t6P2n8vJ5x2v5nF1b3B9cVf45s7vW0t6Y=
+    expiration: 3600000
+server:
+  port: 8081

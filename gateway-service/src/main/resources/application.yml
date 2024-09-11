@@ -1,0 +1,27 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: gateway-service
+  jwt:
+    secret: mQ93h4D1I0t6P2n8vJ5x2v5nF1b3B9cVf45s7vW0t6Y=
+    expiration: 3600000
+  cloud:
+    gateway:
+      routes:
+        - id: clevertec-security-service
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/v1/signin
+            - Path=/api/v1/signup
+        - id: clevertec-news-service
+          uri: http://localhost:8080
+          predicates:
+            - Path=/api/v1/news/**
+            - Path=/api/v1/comments/**
+
+server:
+  port: 8082
+
+
+
